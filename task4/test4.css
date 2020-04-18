@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    border: 0;
+    overflow-x:hidden;
+    background: #efeff4;   
+}
+.up, .bottom{
+    width: 100%;
+    height: 3rem;
+    color: #efeff4;
+    background-color: #5fc0cd  
+}
+.top-l{
+    position: absolute;
+    left: 1rem;
+    line-height: 3rem;
+    color: #efeff4
+}
+
+.top-m{
+    
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #efeff4;   
+}
+.top-r{
+    position: absolute;
+    right: 1rem;
+    line-height: 3rem;
+    top: 0;
+    color: #efeff4;
+
+}
+
+.phone, .password{
+    width: 100%;
+    height: 4rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    background-color:#efeff4
+    
+} 
+   
+.enter{
+    position: relative;
+    padding-left: 8rem;
+    width: 100%;
+    height: 3.5rem;
+    bottom: 3.5rem;
+    border: none;
+    outline: none;
+    
+}
+.logo{
+    
+    position: relative;
+    left: 2rem;
+    top: 1px;
+    z-index: 1;
+    background-color: white;
+  
+}
+.logo1{
+    position: relative;
+    left: 3rem;
+    top: 8px;
+    z-index: 1;
+}
+.forget-passwd{
+    float: right;
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+}
+.top-l, .top-r, .bottom{
+    cursor: pointer;
+}
