@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: relative;
+    height: 4rem;
+    width: 100%;
+    background-color: #4682B4;
+    z-index: 1;
+}
+
+.title{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+}
+.back{
+    cursor: pointer;
+    position: absolute;
+    top: 20%
+    
+    
+}
+.box1{
+    height: 15rem;
+    width: 100%; 
+    background-image: url('./images/bj.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.laddy{
+    position: absolute;
+    top: 5rem;
+    padding: 1rem;
+}
+.name{
+    position: absolute;
+    left: 13rem;
+    top:9rem;   
+}
+.address{
+    position: absolute;
+    left: 13rem;
+    top:11rem;
+    
+}
+.box2, 
+.box3, 
+.box4, 
+.box5, 
+.box6{
+    text-align: left;
+    height: 4rem;
+    border-bottom: 1px solid #808080;
+    background-color: #fff;
+}
+.logo{
+    position: relative;
+    top: 1.5rem;
+    padding-left: .5rem;
+}
+.doing{
+    position: relative;
+    top: 1rem;
+    padding-left: .5rem;
+}
+
+
+span{
+    position: relative;
+    top: .8rem;
+    padding-left: 1rem;
+}
+.middle{
+    position: relative;
+    top: .5rem;
+    padding-left: 1.2rem;
+    
+}
+.star{
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+}
+.box7{
+    width: 100%; 
+    position: relative;  
+}
+.content{
+    text-align: left;
+    padding-left: 7rem;
+       
+}
+.myself{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-70%);
+    color: #808080;  
+}  
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 4rem;
+}
+.message, .phone {
+    width: 45%;
+    height: 3rem;
+    margin: .5rem; 
+    outline: none;   
+}
+.message{
+    border-color: #4682B4;
+    color: #4682B4;
+    background-color:#fff;   
+}
+.phone{
+    color: #fff;
+    background-color: #4682B4;
+}
+
+
+
+
+
+
+
+ 
+
+
+    
+    
+   
