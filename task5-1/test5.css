@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     
+    
 }
 header{
     position: relative;
@@ -10,130 +11,119 @@ header{
     background-color: #4682B4;
     z-index: 1;
 }
-
-.title{
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 2.5rem;
-    color: #fff;
-}
 .back{
-    cursor: pointer;
     position: absolute;
-    top: 20%
+    top: 15%;
+    cursor: pointer;
+}
+.home{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.2rem;
+}
+.content{
+    width: 100%;
+    background-image: url(./img/bj.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    position: relative;
+    bottom: 85px; 
+     
+}
+.address{
+    margin-left: -100px;
+    position: relative;
+    bottom: 50px;
+    
+    
+}
+.photo{
+    position: relative;
+    top: 15px;
+    transform: scale(0.7);
+    
+    
     
     
 }
 .box1{
-    height: 15rem;
-    width: 100%; 
-    background-image: url('./images/bj.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    padding-left: 10px;
+    height: 4rem;
+    border-bottom: 1px solid #808080;
 }
 
-.laddy{
-    position: absolute;
-    top: 5rem;
-    padding: 1rem;
-}
-.name{
-    position: absolute;
-    left: 13rem;
-    top:9rem;   
-}
-.address{
-    position: absolute;
-    left: 13rem;
-    top:11rem;
-    
-}
 .box2, 
 .box3, 
 .box4, 
-.box5, 
-.box6{
+.box5{
     text-align: left;
     height: 4rem;
+    padding-left: 2rem;
     border-bottom: 1px solid #808080;
     background-color: #fff;
 }
-.logo{
-    position: relative;
-    top: 1.5rem;
-    padding-left: .5rem;
-}
-.doing{
-    position: relative;
-    top: 1rem;
-    padding-left: .5rem;
-}
 
-
-span{
-    position: relative;
-    top: .8rem;
-    padding-left: 1rem;
+span, 
+.logo, 
+.star, 
+.middle{
+    line-height: 4rem;
+    vertical-align: middle;
 }
 .middle{
-    position: relative;
-    top: .5rem;
-    padding-left: 1.2rem;
+    margin: 3px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.box6{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    
     
 }
-.star{
-    position: relative;
-    top: 1.2rem;
-    left: 1rem;
-}
-.box7{
-    width: 100%; 
-    position: relative;  
-}
-.content{
-    text-align: left;
-    padding-left: 7rem;
-       
-}
 .myself{
-    position: absolute;
-    top: 35%;
-    transform: translateY(-70%);
-    color: #808080;  
-}  
+    
+    flex-shrink: 0;
+}
+.hobbies{
+    
+    line-height: 2rem;
+
+}
 footer{
     position: absolute;
     bottom: 0;
-    width: 100%;
     text-align: center;
-    line-height: 4rem;
-}
-.message, .phone {
-    width: 45%;
+    width: 100%;
     height: 3rem;
-    margin: .5rem; 
-    outline: none;   
+    background-color: #fff;
+    
 }
+.message, 
+.telephone{
+    display: inline-block;
+    margin: 5px;
+    line-height: 2rem;
+    width: 42%;
+    border: 1px solid #4682B4;
+    border-radius: 5px;
+}
+
 .message{
-    border-color: #4682B4;
+    margin-left: 10px;
     color: #4682B4;
-    background-color:#fff;   
 }
-.phone{
+.telephone{
+    margin-right: 10px;
     color: #fff;
     background-color: #4682B4;
 }
-
-
-
-
-
-
-
- 
-
-
+.message, .telephone:hover{
     
-    
-   
+    cursor: pointer;
+}
