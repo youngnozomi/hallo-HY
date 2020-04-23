@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    padding-bottom: 4rem; /*-- 随footer高度一致，或大于其值 不然撑不开字体 --*/
     
     
 }
@@ -88,7 +89,7 @@ span,
 }
 .myself{
     
-    flex-shrink: 0;
+    flex-shrink: 0; /*-- 指定flex收缩规则 --*/
 }
 .hobbies{
     
@@ -96,11 +97,12 @@ span,
 
 }
 footer{
-    position: absolute;
+    position: fixed; /*-- footer始终在其底部固定 --*/
     bottom: 0;
     text-align: center;
     width: 100%;
-    height: 3rem;
+    height: 4rem; /* -- 随body{ padding-bottom；}一致，或不大于其值 不然掩盖字体 --*/
+    line-height: 3rem;
     background-color: #fff;
     
 }
