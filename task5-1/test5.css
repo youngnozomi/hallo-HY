@@ -33,20 +33,21 @@ header{
 }
 .name{
     position: relative;
-    bottom: 85px; 
-     
-}
-.address{
-    margin-left: -93px;
-    position: relative;
-    bottom: 53px;   
+    bottom: 85px;
     
+}    
+.address{
+    position: relative;
+    bottom: 53px;
+    margin-left: -90px;
+
 }
 .room{
     position: relative;
     bottom: 60px;
-    
 }
+    
+
 .photo{
     position: relative;
     top: 15px;
