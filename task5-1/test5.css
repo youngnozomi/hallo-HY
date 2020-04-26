@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    padding-bottom: 4rem; /*-- 随footer高度一致，或大于其值 不然撑不开字体 --*/
+    padding-bottom: 4rem;
     
     
 }
@@ -25,6 +25,7 @@ header{
     font-size: 1.2rem;
 }
 .content{
+    
     width: 100%;
     background-image: url(./img/bj.png);
     background-size: cover;
@@ -36,10 +37,14 @@ header{
      
 }
 .address{
-    margin-left: -100px;
+    margin-left: -93px;
     position: relative;
-    bottom: 50px;
+    bottom: 53px;   
     
+}
+.room{
+    position: relative;
+    bottom: 60px;
     
 }
 .photo{
@@ -89,20 +94,19 @@ span,
 }
 .myself{
     
-    flex-shrink: 0; /*-- 指定flex收缩规则 --*/
+    flex-shrink: 0;
 }
 .hobbies{
-    
     line-height: 2rem;
+    padding-right: 10px;
 
 }
 footer{
-    position: fixed; /*-- footer始终在其底部固定 --*/
+    position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
-    height: 4rem; /* -- 随body{ padding-bottom；}一致，或不大于其值 不然掩盖字体 --*/
-    line-height: 3rem;
+    height: 3rem;
     background-color: #fff;
     
 }
