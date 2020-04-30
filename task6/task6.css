@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 7.8rem;
+    padding-bottom: 5rem;
+}
+.navbar-default{
+    text-align: center;
+    height: 6rem;
+    line-height: 6rem;
+    padding-left: 50px;
+    font-size: 0;
+    background-color: #5fc0cd;
+  
+}
+.address{
+    float: right;
+    transform: scale(.7);
+}
+.btn-default{
+    color: #5fc0cd;
+}
+.btn-primary{
+  background-color: #55a8b3;
+}
+.btn-group{
+    position: relative;
+    bottom: 11px;
+    
+}
+.news,
+.caret{
+    color: #808080;
+}
+
+.money{
+    float: right;
+    position: relative;
+    bottom: 3rem;
+    font-size: 1.7rem;
+    color: #ff0000;
+    
+   
+}
+
+.time{
+display: block;
+padding-left: 4.4rem;
+font-size: 1.5rem;
+width: 200px;
+max-width: 300px;
+overflow: hidden; 
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.where,
+.data,
+.back{
+    position: relative;
+    transform: scale(.6);
+    bottom: 1px;
+}
+.data,
+.where{
+    padding-left: 10px;
+}
+.info,
+.how{
+    color: #808080;
+}
+.navbar-fixed-bottom{
+    background-color: #f8fafb;
+    
+}
+.btn1{
+    width: 78px; height: 83px;
+    background: url('css_sprites.png') -131px -10px;
+}
+.btn2{
+    width: 101px; height: 97px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.btn3{
+    width: 70px; height: 89px;
+    background: url('css_sprites.png') -229px -10px; 
+}
+.btn1,
+.btn2,
+.btn3{
+    position: relative;
+    bottom: 1.8rem;
+    height: 10rem;
+    transform: scale(.6);
+    border: none;
+}
+.btn1{
+    position: relative;
+    bottom: 14px;
+    
+}
+.back,
+.address{
+    cursor: pointer;
+}
+.caret{
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
